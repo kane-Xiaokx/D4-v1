@@ -6,12 +6,12 @@
         <groupId>org.kane.d4</groupId>
         <artifactId>D4-v1</artifactId>
         <version>0.0.1-SNAPSHOT</version>
-        <relativePath/>
+        <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <artifactId>concurrent</artifactId>
+    <artifactId>algorithm</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>concurrent</name>
-    <description>concurrent</description>
+    <name>algorithm</name>
+    <description>algorithm</description>
     <url/>
     <licenses>
         <license/>
@@ -26,13 +26,12 @@
         <url/>
     </scm>
     <properties>
-
+        <java.version>21</java.version>
     </properties>
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter</artifactId>
-            <version>${spring-boot-starter-web.version}</version>
         </dependency>
 
         <dependency>
